@@ -44,7 +44,7 @@ func isBouncy(num int) bool {
 }
 
 func findNumberByBouncyPercentage(percentage float64) (num int) {
-	num = 1
+	num = 99
 	var bouncyCount = 0
 	for {
 		if isBouncy(num) {
